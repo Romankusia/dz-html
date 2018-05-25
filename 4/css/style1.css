@@ -1,0 +1,72 @@
+body {
+  background-color: #dcbb9a; }
+  body #content {
+    background-color: #ffffff;
+    margin: 0px 150px;
+    padding: 5px 30px;
+    color: black; }
+    body #content h1 {
+      text-align: center;
+      color: #893c00; }
+    body #content h2 {
+      color: #893c00; }
+    body #content img {
+      border: solid #893c00 2px;
+      padding: 3px;
+      margin-right: 20px; }
+    body #content .img-left {
+      float: left; }
+    body #content .img-right {
+      float: right;
+      margin-left: 10px; }
+    body #content .brief {
+      background-color: #fadcba;
+      width: 380px;
+      padding: 20px;
+      float: left;
+      margin: 10px 20px 20px 0px;
+      color: black; }
+    body #content a {
+      color: blue; }
+    body #content table {
+      border-collapse: collapse; }
+      body #content table caption {
+        text-align: right;
+        color: white; }
+      body #content table tbody tr:first-of-type {
+        background-color: #e0e0e0;
+        text-transform: uppercase; }
+      body #content table tbody th {
+        font-weight: normal;
+        text-align: left;
+        padding: 8px;
+        border: 1px solid #e0e0e0; }
+      body #content table tbody td {
+        padding: 6px; }
+      body #content table tbody tr {
+        background-color: white;
+        border: 1px solid #e0e0e0; }
+    body #content .blockmargin {
+      margin: 10px 0px;
+      color: #a18080; }
+    body #content .col-right {
+      float: right; }
+    body #content .col-left {
+      float: left;
+      width: 450px; }
+    body #content .overflow {
+      clear: left; }
+    body #content .allwidth input {
+      width: 100%; }
+    body #content .textareastyle textarea {
+      width: 100%;
+      color: #a18080; }
+    body #content .btn {
+      background-color: #ffffff;
+      padding: 10px 40px;
+      color: #3d70a1;
+      border-color: #3d70a1;
+      font-size: 18px;
+      margin-top: 30px; }
+
+/*# sourceMappingURL=style1.css.map */

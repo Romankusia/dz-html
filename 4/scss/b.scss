@@ -1,0 +1,94 @@
+body {
+    background-color: $backgr;
+    #content {
+        background-color: $content;
+        margin: 0px 150px;
+        padding: 5px 30px;
+        color: $content-text;
+        h1{
+            text-align: center;
+            color: $header;
+        }
+        h2{
+            color: $header
+        }
+        img {
+            border: solid $header 2px;
+            padding: 3px;
+            margin-right: 20px;
+        }
+        .img-left {
+            float: left;
+        }
+        .img-right {
+            float: right;
+            margin-left: 10px;
+        }
+        .brief {
+            background-color: $quote;
+            width: $quote-width;
+            padding: 20px;
+            float: left;
+            margin: 10px 20px 20px 0px;
+            color: $quote-text;
+        }
+        a {
+            color: $a-link;
+        }
+        table{
+            border-collapse: collapse;
+            caption {
+                text-align: right;
+                color: $table-caption;
+            }
+            tbody {
+                tr:first-of-type {
+                    background-color: $table;
+                    text-transform: uppercase;
+                }
+                th{
+                    font-weight: normal;
+                    text-align: left;
+                    padding: 8px;
+                    border: 1px solid $table;
+                }
+                td {
+                    padding: 6px;
+                }
+                tr {
+                    background-color: $table-row;
+                    border: 1px solid $table;
+                }
+            }
+        }
+        .blockmargin {
+            margin: 10px 0px;
+            color: $coment-text;
+        }
+        .col-right{
+            float:right
+        }
+        .col-left{
+            float:left;
+            width: 450px;
+        }
+        .overflow{
+            clear: left;
+        }
+        .allwidth input{
+            width: 100%;
+        }
+        .textareastyle textarea {
+            width: 100%;
+            color: $coment-text-area;
+        }
+        .btn {
+            background-color: $btn-color;
+            padding: 10px 40px;
+            color: $btn-text;
+            border-color: $btn-text;
+            font-size: 18px;
+            margin-top: 30px;
+        }
+    }
+}

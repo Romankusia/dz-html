@@ -1,0 +1,72 @@
+body {
+  background-color: #e0f6fd; }
+  body #content {
+    background-color: #3b3b3b;
+    margin: 0px 150px;
+    padding: 5px 30px;
+    color: white; }
+    body #content h1 {
+      text-align: center;
+      color: #fccd10; }
+    body #content h2 {
+      color: #fccd10; }
+    body #content img {
+      border: solid #fccd10 2px;
+      padding: 3px;
+      margin-right: 20px; }
+    body #content .img-left {
+      float: left; }
+    body #content .img-right {
+      float: right;
+      margin-left: 10px; }
+    body #content .brief {
+      background-color: #fff178;
+      width: 94%;
+      padding: 20px;
+      float: left;
+      margin: 10px 20px 20px 0px;
+      color: black; }
+    body #content a {
+      color: #d7c70f; }
+    body #content table {
+      border-collapse: collapse; }
+      body #content table caption {
+        text-align: right;
+        color: black; }
+      body #content table tbody tr:first-of-type {
+        background-color: #94a34e;
+        text-transform: uppercase; }
+      body #content table tbody th {
+        font-weight: normal;
+        text-align: left;
+        padding: 8px;
+        border: 1px solid #94a34e; }
+      body #content table tbody td {
+        padding: 6px; }
+      body #content table tbody tr {
+        background-color: #677d01;
+        border: 1px solid #94a34e; }
+    body #content .blockmargin {
+      margin: 10px 0px;
+      color: #f5bc2b; }
+    body #content .col-right {
+      float: right; }
+    body #content .col-left {
+      float: left;
+      width: 450px; }
+    body #content .overflow {
+      clear: left; }
+    body #content .allwidth input {
+      width: 100%; }
+    body #content .textareastyle textarea {
+      width: 100%;
+      color: #757575; }
+    body #content .btn {
+      background-color: #3b3b3b;
+      padding: 10px 40px;
+      color: #f5bc2b;
+      border-color: #f5bc2b;
+      font-size: 18px;
+      margin-top: 30px; }
+
+/*# sourceMappingURL=style2.css.map */
